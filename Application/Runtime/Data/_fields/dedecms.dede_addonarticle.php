@@ -1,0 +1,1 @@
+a:8:{i:0;s:3:"aid";i:1;s:6:"typeid";i:2;s:4:"body";i:3;s:11:"redirecturl";i:4;s:7:"templet";i:5;s:6:"userip";s:3:"_pk";s:3:"aid";s:5:"_type";a:6:{s:3:"aid";s:21:"mediumint(8) unsigned";s:6:"typeid";s:20:"smallint(5) unsigned";s:4:"body";s:10:"mediumtext";s:11:"redirecturl";s:12:"varchar(255)";s:7:"templet";s:11:"varchar(30)";s:6:"userip";s:8:"char(15)";}}

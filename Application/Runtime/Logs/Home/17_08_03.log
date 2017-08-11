@@ -1,0 +1,350 @@
+[ 2017-08-03T22:06:01+08:00 ] ::1 /case/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000467s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000777s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000878s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000095s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007767s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007833s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000197s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000237s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000617s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000673s ]
+
+[ 2017-08-03T22:30:21+08:00 ] ::1 /case/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001231s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001529s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001593s ]
+ERR: 非法操作:index
+
+[ 2017-08-03T22:30:42+08:00 ] ::1 /case/index.php/Home/Index/arctype
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000388s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000425s ]
+SQL: SHOW COLUMNS FROM `dede_arctype` [ RunTime:0.0426s ]
+SQL: SELECT `id`,`typename` FROM `dede_arctype` WHERE `reid` = 0  [ RunTime:0.0389s ]
+NOTIC: [8] Indirect modification of overloaded property Home\Controller\IndexController::$data has no effect /Applications/MAMP/htdocs/case/Application/Home/Controller/IndexController.class.php 第 10 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001557s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001686s ]
+
+[ 2017-08-03T22:31:55+08:00 ] ::1 /case/index.php/Home/Index/arctype
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000344s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000344s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000375s ]
+SQL: SHOW COLUMNS FROM `dede_arctype` [ RunTime:0.0406s ]
+SQL: SELECT `id`,`typename` FROM `dede_arctype` WHERE `reid` = 0  [ RunTime:0.0455s ]
+NOTIC: [8] Indirect modification of overloaded property Home\Controller\IndexController::$data has no effect /Applications/MAMP/htdocs/case/Application/Home/Controller/IndexController.class.php 第 10 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001079s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001187s ]
+
+[ 2017-08-03T22:31:57+08:00 ] ::1 /case/index.php/Home/Index/arctype
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000604s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000488s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000542s ]
+SQL: SHOW COLUMNS FROM `dede_arctype` [ RunTime:0.0244s ]
+SQL: SELECT `id`,`typename` FROM `dede_arctype` WHERE `reid` = 0  [ RunTime:0.0352s ]
+NOTIC: [8] Indirect modification of overloaded property Home\Controller\IndexController::$data has no effect /Applications/MAMP/htdocs/case/Application/Home/Controller/IndexController.class.php 第 10 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001055s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001143s ]
+
+[ 2017-08-03T22:31:58+08:00 ] ::1 /case/index.php/Home/Index/arctype
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000401s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000439s ]
+SQL: SHOW COLUMNS FROM `dede_arctype` [ RunTime:0.0449s ]
+SQL: SELECT `id`,`typename` FROM `dede_arctype` WHERE `reid` = 0  [ RunTime:0.0441s ]
+NOTIC: [8] Indirect modification of overloaded property Home\Controller\IndexController::$data has no effect /Applications/MAMP/htdocs/case/Application/Home/Controller/IndexController.class.php 第 10 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001049s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001143s ]
+
+[ 2017-08-03T22:32:25+08:00 ] ::1 /case/index.php/Home/Index/arctype
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000512s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000395s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000429s ]
+SQL: SHOW COLUMNS FROM `dede_arctype` [ RunTime:0.0345s ]
+SQL: SELECT `id`,`typename` FROM `dede_arctype` WHERE `reid` = 0  [ RunTime:0.0537s ]
+NOTIC: [8] Indirect modification of overloaded property Home\Controller\IndexController::$data has no effect /Applications/MAMP/htdocs/case/Application/Home/Controller/IndexController.class.php 第 10 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001033s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001110s ]
+
+[ 2017-08-03T22:32:52+08:00 ] ::1 /case/index.php/Home/Index/arctype
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000402s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000425s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000464s ]
+SQL: SHOW COLUMNS FROM `dede_arctype` [ RunTime:0.0807s ]
+SQL: SELECT `id`,`typename` FROM `dede_arctype` WHERE `reid` = 0  [ RunTime:0.0571s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001074s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001200s ]
+
+[ 2017-08-03T22:33:08+08:00 ] ::1 /case/index.php/Home/Index/arctype
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000363s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000386s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000421s ]
+SQL: SHOW COLUMNS FROM `dede_arctype` [ RunTime:0.0485s ]
+SQL: SELECT `id`,`typename` FROM `dede_arctype` WHERE `reid` = 0  [ RunTime:0.0342s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001068s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001167s ]
+
+[ 2017-08-03T22:33:50+08:00 ] ::1 /case/index.php/Home/Index/arctype
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000332s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000448s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000485s ]
+SQL: SHOW COLUMNS FROM `dede_arctype` [ RunTime:0.0444s ]
+SQL: SELECT `id`,`typename` FROM `dede_arctype` WHERE `reid` = 0  [ RunTime:0.0446s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001077s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001172s ]
+
+[ 2017-08-03T22:51:51+08:00 ] ::1 /case/index.php/Home/Index/arctype
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000690s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000926s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000993s ]
+SQL: SHOW COLUMNS FROM `dede_arctype` [ RunTime:0.0405s ]
+SQL: SELECT `id`,`typename` FROM `dede_arctype` WHERE `reid` = 0  [ RunTime:0.0386s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002875s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003007s ]
+
+[ 2017-08-03T22:51:52+08:00 ] ::1 /case/index.php/Home/Index/arctype
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000308s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000401s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000437s ]
+SQL: SHOW COLUMNS FROM `dede_arctype` [ RunTime:0.0471s ]
+SQL: SELECT `id`,`typename` FROM `dede_arctype` WHERE `reid` = 0  [ RunTime:0.0450s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001177s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001268s ]
+
+[ 2017-08-03T22:52:05+08:00 ] ::1 /case/index.php/Home/Index/arctype
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000317s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000410s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000447s ]
+SQL: SHOW COLUMNS FROM `dede_arctype` [ RunTime:0.0311s ]
+SQL: SELECT `id`,`typename` FROM `dede_arctype` WHERE `reid` = 0  [ RunTime:0.0592s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001073s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001171s ]
+
+[ 2017-08-03T22:52:21+08:00 ] ::1 /case/index.php/Home/Index/arctype
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000311s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000393s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000429s ]
+SQL: SHOW COLUMNS FROM `dede_arctype` [ RunTime:0.0553s ]
+SQL: SELECT `id`,`typename` FROM `dede_arctype` WHERE `reid` = 0  [ RunTime:0.0413s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001069s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001168s ]
+
+[ 2017-08-03T22:52:27+08:00 ] ::1 /case/index.php/Home/Index/arctype
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000286s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000385s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000453s ]
+SQL: SHOW COLUMNS FROM `dede_arctype` [ RunTime:0.0434s ]
+SQL: SELECT `id`,`typename` FROM `dede_arctype` WHERE `reid` = 0  [ RunTime:0.0455s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001065s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001144s ]
+
+[ 2017-08-03T22:52:41+08:00 ] ::1 /case/index.php/Home/Index/member
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000469s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000516s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000650s ]
+SQL: SHOW COLUMNS FROM `dede_member` [ RunTime:0.0339s ]
+SQL: SELECT `mid`,`userid`,`pwd`,`uname`,`sex`,`email`,`face` FROM `dede_member`  [ RunTime:0.0438s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000753s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000822s ]
+
+[ 2017-08-03T22:53:24+08:00 ] ::1 /case/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000311s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000437s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000468s ]
+SQL: SHOW COLUMNS FROM `dede_arctype` [ RunTime:0.0417s ]
+SQL: SELECT `id`,`typename` FROM `dede_arctype` WHERE `reid` = 0  [ RunTime:0.0392s ]
+SQL: SHOW COLUMNS FROM `dede_member` [ RunTime:0.0346s ]
+SQL: SELECT `mid`,`userid`,`pwd`,`uname`,`sex`,`email`,`face` FROM `dede_member`  [ RunTime:0.0546s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000765s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000844s ]
+
+[ 2017-08-03T23:17:08+08:00 ] ::1 /case/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000539s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000655s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000695s ]
+SQL: SHOW COLUMNS FROM `dede_arctype` [ RunTime:0.0446s ]
+SQL: SELECT `id`,`typename` FROM `dede_arctype` WHERE `reid` = 0  [ RunTime:0.0391s ]
+SQL: SHOW COLUMNS FROM `dede_member` [ RunTime:0.0433s ]
+SQL: SELECT `mid`,`userid`,`pwd`,`uname`,`sex`,`email`,`face` FROM `dede_member`  [ RunTime:0.0383s ]
+SQL: SHOW COLUMNS FROM `dede_archives` [ RunTime:0.0442s ]
+ERR: 1146:Table 'case.addonarticle' doesn't exist
+ [ SQL语句 ] : SELECT `id`,`title`,`shorttitle`,`writer`,`source`,`litpic`,`pubdate`,`description`,`body` FROM dede_archives as a INNER JOIN addonarticle as b on a.id = b.id  
+ERR: 1146:Table 'case.addonarticle' doesn't exist
+ [ SQL语句 ] : SELECT `id`,`title`,`shorttitle`,`writer`,`source`,`litpic`,`pubdate`,`description`,`body` FROM dede_archives as a INNER JOIN addonarticle as b on a.id = b.id  
+
+[ 2017-08-03T23:17:44+08:00 ] ::1 /case/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000363s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001204s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001277s ]
+SQL: SHOW COLUMNS FROM `dede_arctype` [ RunTime:0.0392s ]
+SQL: SELECT `id`,`typename` FROM `dede_arctype` WHERE `reid` = 0  [ RunTime:0.0481s ]
+SQL: SHOW COLUMNS FROM `dede_member` [ RunTime:0.0309s ]
+SQL: SELECT `mid`,`userid`,`pwd`,`uname`,`sex`,`email`,`face` FROM `dede_member`  [ RunTime:0.0450s ]
+SQL: SHOW COLUMNS FROM `dede_archives` [ RunTime:0.0341s ]
+ERR: 1054:Unknown column 'b.id' in 'on clause'
+ [ SQL语句 ] : SELECT `id`,`title`,`shorttitle`,`writer`,`source`,`litpic`,`pubdate`,`description`,`body` FROM dede_archives as a INNER JOIN dede_addonarticle as b on a.id = b.id  
+ERR: 1054:Unknown column 'b.id' in 'on clause'
+ [ SQL语句 ] : SELECT `id`,`title`,`shorttitle`,`writer`,`source`,`litpic`,`pubdate`,`description`,`body` FROM dede_archives as a INNER JOIN dede_addonarticle as b on a.id = b.id  
+
+[ 2017-08-03T23:17:53+08:00 ] ::1 /case/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000444s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000749s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000861s ]
+SQL: SHOW COLUMNS FROM `dede_arctype` [ RunTime:0.0472s ]
+SQL: SELECT `id`,`typename` FROM `dede_arctype` WHERE `reid` = 0  [ RunTime:0.0433s ]
+SQL: SHOW COLUMNS FROM `dede_member` [ RunTime:0.0368s ]
+SQL: SELECT `mid`,`userid`,`pwd`,`uname`,`sex`,`email`,`face` FROM `dede_member`  [ RunTime:0.0450s ]
+SQL: SHOW COLUMNS FROM `dede_archives` [ RunTime:0.0422s ]
+SQL: SELECT `id`,`title`,`shorttitle`,`writer`,`source`,`litpic`,`pubdate`,`description`,`body` FROM dede_archives as a INNER JOIN dede_addonarticle as b on a.id = b.aid   [ RunTime:0.1209s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001677s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001812s ]
+
+[ 2017-08-03T23:18:30+08:00 ] ::1 /case/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000456s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000488s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000535s ]
+SQL: SHOW COLUMNS FROM `dede_arctype` [ RunTime:0.0437s ]
+SQL: SELECT `id`,`typename` FROM `dede_arctype` WHERE `reid` = 0  [ RunTime:0.0327s ]
+SQL: SHOW COLUMNS FROM `dede_member` [ RunTime:0.0560s ]
+SQL: SELECT `mid`,`userid`,`pwd`,`uname`,`sex`,`email`,`face` FROM `dede_member`  [ RunTime:0.0684s ]
+SQL: SHOW COLUMNS FROM `dede_archives` [ RunTime:0.0399s ]
+SQL: SELECT `id`,`title`,`shorttitle`,`writer`,`source`,`litpic`,`pubdate`,`description`,`body` FROM dede_archives as a INNER JOIN dede_addonarticle as b on a.id = b.aid   [ RunTime:0.1249s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001397s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001564s ]
+
+[ 2017-08-03T23:22:26+08:00 ] ::1 /case/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000330s ]
+
+[ 2017-08-03T23:22:29+08:00 ] ::1 /case/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000318s ]
+
+[ 2017-08-03T23:23:35+08:00 ] ::1 /case/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000390s ]
+
+[ 2017-08-03T23:23:37+08:00 ] ::1 /case/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000307s ]
+
+[ 2017-08-03T23:23:39+08:00 ] ::1 /case/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000289s ]
+
+[ 2017-08-03T23:32:34+08:00 ] ::1 /case/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000305s ]
+ERR: 1052:Column 'uname' in field list is ambiguous
+ [ SQL语句 ] : SELECT a.mid,`userid`,`pwd`,`uname`,`sex`,`email`,`face`,`qq`,`tel`,`mobile`,`place`,`oldplace`,`birthday`,`star`,`height`,`education`,`blood`,`nature`,`address`,`lovemsg` FROM dede_member as a INNER JOIN dede_member_person as b on a.mid = b.mid  
+
+[ 2017-08-03T23:32:42+08:00 ] ::1 /case/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000416s ]
+ERR: 1052:Column 'sex' in field list is ambiguous
+ [ SQL语句 ] : SELECT a.mid,`userid`,`pwd`,a.uname,`sex`,`email`,`face`,`qq`,`tel`,`mobile`,`place`,`oldplace`,`birthday`,`star`,`height`,`education`,`blood`,`nature`,`address`,`lovemsg` FROM dede_member as a INNER JOIN dede_member_person as b on a.mid = b.mid  
+
+[ 2017-08-03T23:32:48+08:00 ] ::1 /case/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000419s ]
+ERR: 1146:Table 'case.dede_group_notice' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dede_group_notice`
+
+[ 2017-08-03T23:33:58+08:00 ] ::1 /case/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000320s ]
+

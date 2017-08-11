@@ -1,0 +1,547 @@
+[ 2017-08-11T09:15:11+08:00 ] 127.0.0.1 /index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000118s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000792s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000924s ]
+SQL: SHOW COLUMNS FROM `dede_arctype` [ RunTime:0.0007s ]
+SQL: SELECT `id`,`typename`,`defaultnames` FROM `dede_arctype` WHERE `reid` = 0 AND `ishidden` = 0  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `dede_archives` [ RunTime:0.0006s ]
+SQL: SELECT a.id,`title`,`shorttitle`,`writer`,`source`,`litpic`,`pubdate`,a.description,a.flag FROM dede_archives as a INNER JOIN dede_chanpin as c on a.id = c.aid  WHERE a.typeid = 2  [ RunTime:0.0005s ]
+SQL: SELECT a.id,`title`,`shorttitle`,`writer`,`source`,`litpic`,`pubdate`,a.description,a.flag FROM dede_archives as a INNER JOIN dede_chanpin as c on a.id = c.aid  WHERE a.typeid = 2  [ RunTime:0.0003s ]
+SQL: SELECT a.id,`title`,`shorttitle`,`writer`,`source`,`litpic`,`pubdate`,a.description,a.flag FROM dede_archives as a INNER JOIN dede_chanpin as c on a.id = c.aid  WHERE a.typeid = 2  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `dede_arctype` [ RunTime:0.0005s ]
+SQL: SELECT a.id,`title`,`shorttitle`,`writer`,`source`,`litpic`,`pubdate`,c.description FROM dede_arctype as a INNER JOIN dede_archives as c on a.id = c.typeid INNER JOIN dede_addonarticle as b on c.id = b.aid  WHERE a.id = 11 AND a.reid = 1  [ RunTime:0.0004s ]
+SQL: SELECT a.id,`title`,`shorttitle`,`writer`,`source`,`litpic`,`pubdate`,c.description,`body` FROM dede_arctype as a INNER JOIN dede_archives as c on a.id = c.typeid INNER JOIN dede_addonarticle as b on c.id = b.aid  WHERE a.id = 13 AND a.reid = 1  [ RunTime:0.0004s ]
+SQL: SELECT a.id,`title`,`shorttitle`,`writer`,`source`,`litpic`,`pubdate`,a.description,a.flag FROM dede_archives as a INNER JOIN dede_addonarticle as c on a.id = c.aid  WHERE a.typeid = 3  [ RunTime:0.0004s ]
+SQL: SELECT a.id,`title`,`shorttitle`,`writer`,`source`,`litpic`,`pubdate`,c.description FROM dede_arctype as a INNER JOIN dede_archives as c on a.id = c.typeid INNER JOIN dede_addonarticle as b on c.id = b.aid  WHERE a.id = 18 AND a.reid = 1  [ RunTime:0.0004s ]
+SQL: SELECT a.id,`title`,`writer`,`source`,`litpic` FROM dede_arctype as a INNER JOIN dede_archives as c on a.id = c.typeid INNER JOIN dede_addonarticle as b on c.id = b.aid  WHERE a.id = 19 AND a.reid = 1  [ RunTime:0.0004s ]
+SQL: SELECT a.id,`title`,c.description FROM dede_arctype as a INNER JOIN dede_archives as c on a.id = c.typeid  WHERE `reid` = 0 AND a.id = 23  [ RunTime:0.0003s ]
+SQL: SELECT `id`,`typename`,`defaultnames` FROM `dede_arctype` WHERE `reid` = 0 AND `ishidden` = 1 AND `issend` = 1  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000700s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000804s ]
+
+[ 2017-08-11T09:47:06+08:00 ] 127.0.0.1 /index.php/Home/Details/index?id=61
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000115s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000978s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001185s ]
+SQL: SHOW COLUMNS FROM `dede_archives` [ RunTime:0.0007s ]
+SQL: SELECT * FROM dede_archives as b INNER JOIN dede_chanpin as c on b.id = c.aid  WHERE b.id = '61' AND c.aid = '61' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `dede_chanpin` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `dede_chanpin` WHERE `aid` = 61 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `dede_channeltype` [ RunTime:0.0006s ]
+SQL: SELECT `fieldset` FROM `dede_channeltype` WHERE `id` = 17  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `dede_arctype` [ RunTime:0.0008s ]
+SQL: SELECT a.id,`title`,`litpic`,c.description FROM dede_arctype as a INNER JOIN dede_archives as c on a.id = c.typeid  WHERE `reid` = 0 AND a.id = 2 ORDER BY rand() LIMIT 4   [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000824s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000956s ]
+
+[ 2017-08-11T09:47:10+08:00 ] 127.0.0.1 /index.php/Home/Details/index?id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000102s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000453s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000560s ]
+SQL: SHOW COLUMNS FROM `dede_archives` [ RunTime:0.0012s ]
+SQL: SELECT * FROM dede_archives as b INNER JOIN dede_chanpin as c on b.id = c.aid  WHERE b.id = '2' AND c.aid = '2' LIMIT 1   [ RunTime:0.0229s ]
+SQL: SHOW COLUMNS FROM `dede_chanpin` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dede_chanpin` WHERE `aid` = 2 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `dede_channeltype` [ RunTime:0.0010s ]
+SQL: SELECT `fieldset` FROM `dede_channeltype` WHERE `id` = 17  [ RunTime:0.0004s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp64\www\Case\Application\Home\Controller\DetailsController.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `dede_arctype` [ RunTime:0.0009s ]
+SQL: SELECT a.id,`title`,`litpic`,c.description FROM dede_arctype as a INNER JOIN dede_archives as c on a.id = c.typeid  WHERE `reid` = 0 AND a.id = 2 ORDER BY rand() LIMIT 4   [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003815s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004104s ]
+
+[ 2017-08-11T09:47:19+08:00 ] 127.0.0.1 /index.php/Home/Details/index?id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000293s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001074s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001267s ]
+SQL: SHOW COLUMNS FROM `dede_archives` [ RunTime:0.0009s ]
+SQL: SELECT * FROM dede_archives as b INNER JOIN dede_chanpin as c on b.id = c.aid  WHERE b.id = '2' AND c.aid = '2' LIMIT 1   [ RunTime:0.0152s ]
+SQL: SHOW COLUMNS FROM `dede_chanpin` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `dede_chanpin` WHERE `aid` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dede_channeltype` [ RunTime:0.0006s ]
+SQL: SELECT `fieldset` FROM `dede_channeltype` WHERE `id` = 17  [ RunTime:0.0002s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp64\www\Case\Application\Home\Controller\DetailsController.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `dede_arctype` [ RunTime:0.0006s ]
+SQL: SELECT a.id,`title`,`litpic`,c.description FROM dede_arctype as a INNER JOIN dede_archives as c on a.id = c.typeid  WHERE `reid` = 0 AND a.id = 2 ORDER BY rand() LIMIT 4   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000618s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000717s ]
+
+[ 2017-08-11T09:47:22+08:00 ] 127.0.0.1 /index.php/Home/Details/index?id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000207s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000870s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001049s ]
+SQL: SHOW COLUMNS FROM `dede_archives` [ RunTime:0.0006s ]
+SQL: SELECT * FROM dede_archives as b INNER JOIN dede_chanpin as c on b.id = c.aid  WHERE b.id = '2' AND c.aid = '2' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `dede_chanpin` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `dede_chanpin` WHERE `aid` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `dede_channeltype` [ RunTime:0.0008s ]
+SQL: SELECT `fieldset` FROM `dede_channeltype` WHERE `id` = 17  [ RunTime:0.0004s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp64\www\Case\Application\Home\Controller\DetailsController.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `dede_arctype` [ RunTime:0.0007s ]
+SQL: SELECT a.id,`title`,`litpic`,c.description FROM dede_arctype as a INNER JOIN dede_archives as c on a.id = c.typeid  WHERE `reid` = 0 AND a.id = 2 ORDER BY rand() LIMIT 4   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000816s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000914s ]
+
+[ 2017-08-11T09:47:25+08:00 ] 127.0.0.1 /index.php/Home/Details/index?id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000102s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000457s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000554s ]
+SQL: SHOW COLUMNS FROM `dede_archives` [ RunTime:0.0009s ]
+SQL: SELECT * FROM dede_archives as b INNER JOIN dede_chanpin as c on b.id = c.aid  WHERE b.id = '2' AND c.aid = '2' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `dede_chanpin` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `dede_chanpin` WHERE `aid` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `dede_channeltype` [ RunTime:0.0010s ]
+SQL: SELECT `fieldset` FROM `dede_channeltype` WHERE `id` = 17  [ RunTime:0.0002s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp64\www\Case\Application\Home\Controller\DetailsController.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `dede_arctype` [ RunTime:0.0005s ]
+SQL: SELECT a.id,`title`,`litpic`,c.description FROM dede_arctype as a INNER JOIN dede_archives as c on a.id = c.typeid  WHERE `reid` = 0 AND a.id = 2 ORDER BY rand() LIMIT 4   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000521s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000609s ]
+
+[ 2017-08-11T09:47:27+08:00 ] 127.0.0.1 /index.php/Home/Details/index?id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000174s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000468s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000558s ]
+SQL: SHOW COLUMNS FROM `dede_archives` [ RunTime:0.0012s ]
+SQL: SELECT * FROM dede_archives as b INNER JOIN dede_chanpin as c on b.id = c.aid  WHERE b.id = '2' AND c.aid = '2' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `dede_chanpin` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `dede_chanpin` WHERE `aid` = 2 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `dede_channeltype` [ RunTime:0.0009s ]
+SQL: SELECT `fieldset` FROM `dede_channeltype` WHERE `id` = 17  [ RunTime:0.0004s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp64\www\Case\Application\Home\Controller\DetailsController.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `dede_arctype` [ RunTime:0.0010s ]
+SQL: SELECT a.id,`title`,`litpic`,c.description FROM dede_arctype as a INNER JOIN dede_archives as c on a.id = c.typeid  WHERE `reid` = 0 AND a.id = 2 ORDER BY rand() LIMIT 4   [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001091s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001256s ]
+
+[ 2017-08-11T09:47:53+08:00 ] 127.0.0.1 /index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000154s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000323s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001498s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001712s ]
+SQL: SHOW COLUMNS FROM `dede_arctype` [ RunTime:0.0010s ]
+SQL: SELECT `id`,`typename`,`defaultnames` FROM `dede_arctype` WHERE `reid` = 0 AND `ishidden` = 0  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `dede_archives` [ RunTime:0.0005s ]
+SQL: SELECT a.id,`title`,`shorttitle`,`writer`,`source`,`litpic`,`pubdate`,a.description,a.flag FROM dede_archives as a INNER JOIN dede_chanpin as c on a.id = c.aid  WHERE a.typeid = 2  [ RunTime:0.0002s ]
+SQL: SELECT a.id,`title`,`shorttitle`,`writer`,`source`,`litpic`,`pubdate`,a.description,a.flag FROM dede_archives as a INNER JOIN dede_chanpin as c on a.id = c.aid  WHERE a.typeid = 2  [ RunTime:0.0003s ]
+SQL: SELECT a.id,`title`,`shorttitle`,`writer`,`source`,`litpic`,`pubdate`,a.description,a.flag FROM dede_archives as a INNER JOIN dede_chanpin as c on a.id = c.aid  WHERE a.typeid = 2  [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `dede_arctype` [ RunTime:0.0006s ]
+SQL: SELECT a.id,`title`,`shorttitle`,`writer`,`source`,`litpic`,`pubdate`,c.description FROM dede_arctype as a INNER JOIN dede_archives as c on a.id = c.typeid INNER JOIN dede_addonarticle as b on c.id = b.aid  WHERE a.id = 11 AND a.reid = 1  [ RunTime:0.0007s ]
+SQL: SELECT a.id,`title`,`shorttitle`,`writer`,`source`,`litpic`,`pubdate`,c.description,`body` FROM dede_arctype as a INNER JOIN dede_archives as c on a.id = c.typeid INNER JOIN dede_addonarticle as b on c.id = b.aid  WHERE a.id = 13 AND a.reid = 1  [ RunTime:0.0005s ]
+SQL: SELECT a.id,`title`,`shorttitle`,`writer`,`source`,`litpic`,`pubdate`,a.description,a.flag FROM dede_archives as a INNER JOIN dede_addonarticle as c on a.id = c.aid  WHERE a.typeid = 3  [ RunTime:0.0009s ]
+SQL: SELECT a.id,`title`,`shorttitle`,`writer`,`source`,`litpic`,`pubdate`,c.description FROM dede_arctype as a INNER JOIN dede_archives as c on a.id = c.typeid INNER JOIN dede_addonarticle as b on c.id = b.aid  WHERE a.id = 18 AND a.reid = 1  [ RunTime:0.0010s ]
+SQL: SELECT a.id,`title`,`writer`,`source`,`litpic` FROM dede_arctype as a INNER JOIN dede_archives as c on a.id = c.typeid INNER JOIN dede_addonarticle as b on c.id = b.aid  WHERE a.id = 19 AND a.reid = 1  [ RunTime:0.0003s ]
+SQL: SELECT a.id,`title`,c.description FROM dede_arctype as a INNER JOIN dede_archives as c on a.id = c.typeid  WHERE `reid` = 0 AND a.id = 23  [ RunTime:0.0002s ]
+SQL: SELECT `id`,`typename`,`defaultnames` FROM `dede_arctype` WHERE `reid` = 0 AND `ishidden` = 1 AND `issend` = 1  [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000914s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001011s ]
+
+[ 2017-08-11T09:47:59+08:00 ] 127.0.0.1 /index.php/Home/Details/index?id=63
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000107s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000673s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000758s ]
+SQL: SHOW COLUMNS FROM `dede_archives` [ RunTime:0.0009s ]
+SQL: SELECT * FROM dede_archives as b INNER JOIN dede_chanpin as c on b.id = c.aid  WHERE b.id = '63' AND c.aid = '63' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `dede_chanpin` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `dede_chanpin` WHERE `aid` = 63 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `dede_channeltype` [ RunTime:0.0008s ]
+SQL: SELECT `fieldset` FROM `dede_channeltype` WHERE `id` = 17  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `dede_arctype` [ RunTime:0.0009s ]
+SQL: SELECT a.id,`title`,`litpic`,c.description FROM dede_arctype as a INNER JOIN dede_archives as c on a.id = c.typeid  WHERE `reid` = 0 AND a.id = 2 ORDER BY rand() LIMIT 4   [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001287s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001462s ]
+
+[ 2017-08-11T09:48:01+08:00 ] 127.0.0.1 /index.php/Home/Details/index?id=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000190s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001086s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001254s ]
+SQL: SHOW COLUMNS FROM `dede_archives` [ RunTime:0.0007s ]
+SQL: SELECT * FROM dede_archives as b INNER JOIN dede_chanpin as c on b.id = c.aid  WHERE b.id = '' AND c.aid = '' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `dede_chanpin` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `dede_chanpin` WHERE `aid` = 0 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `dede_channeltype` [ RunTime:0.0005s ]
+SQL: SELECT `fieldset` FROM `dede_channeltype` WHERE `id` = 17  [ RunTime:0.0002s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp64\www\Case\Application\Home\Controller\DetailsController.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `dede_arctype` [ RunTime:0.0005s ]
+SQL: SELECT a.id,`title`,`litpic`,c.description FROM dede_arctype as a INNER JOIN dede_archives as c on a.id = c.typeid  WHERE `reid` = 0 AND a.id = 2 ORDER BY rand() LIMIT 4   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000868s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000973s ]
+
+[ 2017-08-11T09:49:03+08:00 ] 127.0.0.1 //index.php/Home/Details/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000104s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000611s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000749s ]
+SQL: SHOW COLUMNS FROM `dede_archives` [ RunTime:0.0006s ]
+SQL: SELECT * FROM dede_archives as b INNER JOIN dede_chanpin as c on b.id = c.aid  WHERE b.id = '' AND c.aid = '' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `dede_chanpin` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `dede_chanpin` WHERE `aid` = 0 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `dede_channeltype` [ RunTime:0.0006s ]
+SQL: SELECT `fieldset` FROM `dede_channeltype` WHERE `id` = 17  [ RunTime:0.0003s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp64\www\Case\Application\Home\Controller\DetailsController.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `dede_arctype` [ RunTime:0.0005s ]
+SQL: SELECT a.id,`title`,`litpic`,c.description FROM dede_arctype as a INNER JOIN dede_archives as c on a.id = c.typeid  WHERE `reid` = 0 AND a.id = 2 ORDER BY rand() LIMIT 4   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000571s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000656s ]
+
+[ 2017-08-11T09:49:13+08:00 ] 127.0.0.1 //index.php/Home/Details/index/id/63
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000104s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000576s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000758s ]
+SQL: SHOW COLUMNS FROM `dede_archives` [ RunTime:0.0007s ]
+SQL: SELECT * FROM dede_archives as b INNER JOIN dede_chanpin as c on b.id = c.aid  WHERE b.id = '63' AND c.aid = '63' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `dede_chanpin` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `dede_chanpin` WHERE `aid` = 63 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `dede_channeltype` [ RunTime:0.0006s ]
+SQL: SELECT `fieldset` FROM `dede_channeltype` WHERE `id` = 17  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `dede_arctype` [ RunTime:0.0009s ]
+SQL: SELECT a.id,`title`,`litpic`,c.description FROM dede_arctype as a INNER JOIN dede_archives as c on a.id = c.typeid  WHERE `reid` = 0 AND a.id = 2 ORDER BY rand() LIMIT 4   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000576s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000664s ]
+
+[ 2017-08-11T09:50:02+08:00 ] 127.0.0.1 //index.php/Home/Details/index/id/63
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000102s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000438s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000525s ]
+SQL: SHOW COLUMNS FROM `dede_archives` [ RunTime:0.0007s ]
+SQL: SELECT * FROM dede_archives as b INNER JOIN dede_chanpin as c on b.id = c.aid  WHERE b.id = '63' AND c.aid = '63' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `dede_chanpin` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `dede_chanpin` WHERE `aid` = 63 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `dede_channeltype` [ RunTime:0.0006s ]
+SQL: SELECT `fieldset` FROM `dede_channeltype` WHERE `id` = 17  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `dede_arctype` [ RunTime:0.0006s ]
+SQL: SELECT a.id,`title`,`litpic`,c.description FROM dede_arctype as a INNER JOIN dede_archives as c on a.id = c.typeid  WHERE `reid` = 0 AND a.id = 2 ORDER BY rand() LIMIT 4   [ RunTime:0.0006s ]
+
+[ 2017-08-11T09:50:47+08:00 ] 127.0.0.1 //index.php/Home/Details/index/id/63
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000104s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000487s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000577s ]
+SQL: SHOW COLUMNS FROM `dede_archives` [ RunTime:0.0007s ]
+SQL: SELECT * FROM dede_archives as b INNER JOIN dede_chanpin as c on b.id = c.aid  WHERE b.id = '63' AND c.aid = '63' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `dede_chanpin` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `dede_chanpin` WHERE `aid` = 63 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `dede_channeltype` [ RunTime:0.0005s ]
+SQL: SELECT `fieldset` FROM `dede_channeltype` WHERE `id` = 17  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `dede_arctype` [ RunTime:0.0006s ]
+SQL: SELECT c.id,`title`,`litpic`,c.description FROM dede_arctype as a INNER JOIN dede_archives as c on a.id = c.typeid  WHERE `reid` = 0 AND a.id = 2 ORDER BY rand() LIMIT 4   [ RunTime:0.0004s ]
+
+[ 2017-08-11T09:51:05+08:00 ] 127.0.0.1 /index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000114s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000530s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000633s ]
+SQL: SHOW COLUMNS FROM `dede_arctype` [ RunTime:0.0007s ]
+SQL: SELECT `id`,`typename`,`defaultnames` FROM `dede_arctype` WHERE `reid` = 0 AND `ishidden` = 0  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `dede_archives` [ RunTime:0.0007s ]
+SQL: SELECT a.id,`title`,`shorttitle`,`writer`,`source`,`litpic`,`pubdate`,a.description,a.flag FROM dede_archives as a INNER JOIN dede_chanpin as c on a.id = c.aid  WHERE a.typeid = 2  [ RunTime:0.0003s ]
+SQL: SELECT a.id,`title`,`shorttitle`,`writer`,`source`,`litpic`,`pubdate`,a.description,a.flag FROM dede_archives as a INNER JOIN dede_chanpin as c on a.id = c.aid  WHERE a.typeid = 2  [ RunTime:0.0002s ]
+SQL: SELECT a.id,`title`,`shorttitle`,`writer`,`source`,`litpic`,`pubdate`,a.description,a.flag FROM dede_archives as a INNER JOIN dede_chanpin as c on a.id = c.aid  WHERE a.typeid = 2  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dede_arctype` [ RunTime:0.0005s ]
+SQL: SELECT a.id,`title`,`shorttitle`,`writer`,`source`,`litpic`,`pubdate`,c.description FROM dede_arctype as a INNER JOIN dede_archives as c on a.id = c.typeid INNER JOIN dede_addonarticle as b on c.id = b.aid  WHERE a.id = 11 AND a.reid = 1  [ RunTime:0.0006s ]
+SQL: SELECT a.id,`title`,`shorttitle`,`writer`,`source`,`litpic`,`pubdate`,c.description,`body` FROM dede_arctype as a INNER JOIN dede_archives as c on a.id = c.typeid INNER JOIN dede_addonarticle as b on c.id = b.aid  WHERE a.id = 13 AND a.reid = 1  [ RunTime:0.0004s ]
+SQL: SELECT a.id,`title`,`shorttitle`,`writer`,`source`,`litpic`,`pubdate`,a.description,a.flag FROM dede_archives as a INNER JOIN dede_addonarticle as c on a.id = c.aid  WHERE a.typeid = 3  [ RunTime:0.0006s ]
+SQL: SELECT a.id,`title`,`shorttitle`,`writer`,`source`,`litpic`,`pubdate`,c.description FROM dede_arctype as a INNER JOIN dede_archives as c on a.id = c.typeid INNER JOIN dede_addonarticle as b on c.id = b.aid  WHERE a.id = 18 AND a.reid = 1  [ RunTime:0.0004s ]
+SQL: SELECT a.id,`title`,`writer`,`source`,`litpic` FROM dede_arctype as a INNER JOIN dede_archives as c on a.id = c.typeid INNER JOIN dede_addonarticle as b on c.id = b.aid  WHERE a.id = 19 AND a.reid = 1  [ RunTime:0.0005s ]
+SQL: SELECT a.id,`title`,c.description FROM dede_arctype as a INNER JOIN dede_archives as c on a.id = c.typeid  WHERE `reid` = 0 AND a.id = 23  [ RunTime:0.0005s ]
+SQL: SELECT `id`,`typename`,`defaultnames` FROM `dede_arctype` WHERE `reid` = 0 AND `ishidden` = 1 AND `issend` = 1  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000719s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000843s ]
+
+[ 2017-08-11T09:51:08+08:00 ] 127.0.0.1 /index.php/Home/Details/index?id=62
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000112s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000491s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000615s ]
+SQL: SHOW COLUMNS FROM `dede_archives` [ RunTime:0.0010s ]
+SQL: SELECT * FROM dede_archives as b INNER JOIN dede_chanpin as c on b.id = c.aid  WHERE b.id = '62' AND c.aid = '62' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `dede_chanpin` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `dede_chanpin` WHERE `aid` = 62 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `dede_channeltype` [ RunTime:0.0011s ]
+SQL: SELECT `fieldset` FROM `dede_channeltype` WHERE `id` = 17  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `dede_arctype` [ RunTime:0.0009s ]
+SQL: SELECT c.id,`title`,`litpic`,c.description FROM dede_arctype as a INNER JOIN dede_archives as c on a.id = c.typeid  WHERE `reid` = 0 AND a.id = 2 ORDER BY rand() LIMIT 4   [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000769s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000935s ]
+
+[ 2017-08-11T09:51:15+08:00 ] 127.0.0.1 /index.php/Home/Details/index?id=64
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000165s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000647s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000790s ]
+SQL: SHOW COLUMNS FROM `dede_archives` [ RunTime:0.0009s ]
+SQL: SELECT * FROM dede_archives as b INNER JOIN dede_chanpin as c on b.id = c.aid  WHERE b.id = '64' AND c.aid = '64' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `dede_chanpin` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `dede_chanpin` WHERE `aid` = 64 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `dede_channeltype` [ RunTime:0.0016s ]
+SQL: SELECT `fieldset` FROM `dede_channeltype` WHERE `id` = 17  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `dede_arctype` [ RunTime:0.0007s ]
+SQL: SELECT c.id,`title`,`litpic`,c.description FROM dede_arctype as a INNER JOIN dede_archives as c on a.id = c.typeid  WHERE `reid` = 0 AND a.id = 2 ORDER BY rand() LIMIT 4   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000519s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000605s ]
+
+[ 2017-08-11T09:51:19+08:00 ] 127.0.0.1 /index.php/Home/Details/index?id=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000180s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000859s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001050s ]
+SQL: SHOW COLUMNS FROM `dede_archives` [ RunTime:0.0009s ]
+SQL: SELECT * FROM dede_archives as b INNER JOIN dede_chanpin as c on b.id = c.aid  WHERE b.id = '' AND c.aid = '' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `dede_chanpin` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `dede_chanpin` WHERE `aid` = 0 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `dede_channeltype` [ RunTime:0.0008s ]
+SQL: SELECT `fieldset` FROM `dede_channeltype` WHERE `id` = 17  [ RunTime:0.0004s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp64\www\Case\Application\Home\Controller\DetailsController.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `dede_arctype` [ RunTime:0.0009s ]
+SQL: SELECT c.id,`title`,`litpic`,c.description FROM dede_arctype as a INNER JOIN dede_archives as c on a.id = c.typeid  WHERE `reid` = 0 AND a.id = 2 ORDER BY rand() LIMIT 4   [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001064s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001241s ]
+
+[ 2017-08-11T09:51:29+08:00 ] 127.0.0.1 /index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000106s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000510s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000597s ]
+SQL: SHOW COLUMNS FROM `dede_arctype` [ RunTime:0.0007s ]
+SQL: SELECT `id`,`typename`,`defaultnames` FROM `dede_arctype` WHERE `reid` = 0 AND `ishidden` = 0  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `dede_archives` [ RunTime:0.0006s ]
+SQL: SELECT a.id,`title`,`shorttitle`,`writer`,`source`,`litpic`,`pubdate`,a.description,a.flag FROM dede_archives as a INNER JOIN dede_chanpin as c on a.id = c.aid  WHERE a.typeid = 2  [ RunTime:0.0003s ]
+SQL: SELECT a.id,`title`,`shorttitle`,`writer`,`source`,`litpic`,`pubdate`,a.description,a.flag FROM dede_archives as a INNER JOIN dede_chanpin as c on a.id = c.aid  WHERE a.typeid = 2  [ RunTime:0.0003s ]
+SQL: SELECT a.id,`title`,`shorttitle`,`writer`,`source`,`litpic`,`pubdate`,a.description,a.flag FROM dede_archives as a INNER JOIN dede_chanpin as c on a.id = c.aid  WHERE a.typeid = 2  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `dede_arctype` [ RunTime:0.0006s ]
+SQL: SELECT a.id,`title`,`shorttitle`,`writer`,`source`,`litpic`,`pubdate`,c.description FROM dede_arctype as a INNER JOIN dede_archives as c on a.id = c.typeid INNER JOIN dede_addonarticle as b on c.id = b.aid  WHERE a.id = 11 AND a.reid = 1  [ RunTime:0.0004s ]
+SQL: SELECT a.id,`title`,`shorttitle`,`writer`,`source`,`litpic`,`pubdate`,c.description,`body` FROM dede_arctype as a INNER JOIN dede_archives as c on a.id = c.typeid INNER JOIN dede_addonarticle as b on c.id = b.aid  WHERE a.id = 13 AND a.reid = 1  [ RunTime:0.0004s ]
+SQL: SELECT a.id,`title`,`shorttitle`,`writer`,`source`,`litpic`,`pubdate`,a.description,a.flag FROM dede_archives as a INNER JOIN dede_addonarticle as c on a.id = c.aid  WHERE a.typeid = 3  [ RunTime:0.0003s ]
+SQL: SELECT a.id,`title`,`shorttitle`,`writer`,`source`,`litpic`,`pubdate`,c.description FROM dede_arctype as a INNER JOIN dede_archives as c on a.id = c.typeid INNER JOIN dede_addonarticle as b on c.id = b.aid  WHERE a.id = 18 AND a.reid = 1  [ RunTime:0.0004s ]
+SQL: SELECT a.id,`title`,`writer`,`source`,`litpic` FROM dede_arctype as a INNER JOIN dede_archives as c on a.id = c.typeid INNER JOIN dede_addonarticle as b on c.id = b.aid  WHERE a.id = 19 AND a.reid = 1  [ RunTime:0.0007s ]
+SQL: SELECT a.id,`title`,c.description FROM dede_arctype as a INNER JOIN dede_archives as c on a.id = c.typeid  WHERE `reid` = 0 AND a.id = 23  [ RunTime:0.0013s ]
+SQL: SELECT `id`,`typename`,`defaultnames` FROM `dede_arctype` WHERE `reid` = 0 AND `ishidden` = 1 AND `issend` = 1  [ RunTime:0.0012s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000768s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000934s ]
+
+[ 2017-08-11T09:51:32+08:00 ] 127.0.0.1 /index.php/Home/Details/index?id=63
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000204s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001158s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001423s ]
+SQL: SHOW COLUMNS FROM `dede_archives` [ RunTime:0.0010s ]
+SQL: SELECT * FROM dede_archives as b INNER JOIN dede_chanpin as c on b.id = c.aid  WHERE b.id = '63' AND c.aid = '63' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `dede_chanpin` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `dede_chanpin` WHERE `aid` = 63 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `dede_channeltype` [ RunTime:0.0010s ]
+SQL: SELECT `fieldset` FROM `dede_channeltype` WHERE `id` = 17  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `dede_arctype` [ RunTime:0.0010s ]
+SQL: SELECT c.id,`title`,`litpic`,c.description FROM dede_arctype as a INNER JOIN dede_archives as c on a.id = c.typeid  WHERE `reid` = 0 AND a.id = 2 ORDER BY rand() LIMIT 4   [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001030s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001182s ]
+
+[ 2017-08-11T09:51:34+08:00 ] 127.0.0.1 /index.php/Home/Details/index?id=54
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000199s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001131s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001392s ]
+SQL: SHOW COLUMNS FROM `dede_archives` [ RunTime:0.0006s ]
+SQL: SELECT * FROM dede_archives as b INNER JOIN dede_chanpin as c on b.id = c.aid  WHERE b.id = '54' AND c.aid = '54' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `dede_chanpin` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `dede_chanpin` WHERE `aid` = 54 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dede_channeltype` [ RunTime:0.0007s ]
+SQL: SELECT `fieldset` FROM `dede_channeltype` WHERE `id` = 17  [ RunTime:0.0004s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp64\www\Case\Application\Home\Controller\DetailsController.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `dede_arctype` [ RunTime:0.0008s ]
+SQL: SELECT c.id,`title`,`litpic`,c.description FROM dede_arctype as a INNER JOIN dede_archives as c on a.id = c.typeid  WHERE `reid` = 0 AND a.id = 2 ORDER BY rand() LIMIT 4   [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001126s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001274s ]
+
+[ 2017-08-11T09:51:40+08:00 ] 127.0.0.1 /index.php/Home/Details/index?id=49
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000196s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000959s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001144s ]
+SQL: SHOW COLUMNS FROM `dede_archives` [ RunTime:0.0009s ]
+SQL: SELECT * FROM dede_archives as b INNER JOIN dede_chanpin as c on b.id = c.aid  WHERE b.id = '49' AND c.aid = '49' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `dede_chanpin` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `dede_chanpin` WHERE `aid` = 49 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `dede_channeltype` [ RunTime:0.0008s ]
+SQL: SELECT `fieldset` FROM `dede_channeltype` WHERE `id` = 17  [ RunTime:0.0005s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp64\www\Case\Application\Home\Controller\DetailsController.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `dede_arctype` [ RunTime:0.0011s ]
+SQL: SELECT c.id,`title`,`litpic`,c.description FROM dede_arctype as a INNER JOIN dede_archives as c on a.id = c.typeid  WHERE `reid` = 0 AND a.id = 2 ORDER BY rand() LIMIT 4   [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001097s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001261s ]
+
+[ 2017-08-11T09:51:47+08:00 ] 127.0.0.1 /index.php/Home/Details/index?id=64
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000182s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000767s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000909s ]
+SQL: SHOW COLUMNS FROM `dede_archives` [ RunTime:0.0009s ]
+SQL: SELECT * FROM dede_archives as b INNER JOIN dede_chanpin as c on b.id = c.aid  WHERE b.id = '64' AND c.aid = '64' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `dede_chanpin` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `dede_chanpin` WHERE `aid` = 64 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `dede_channeltype` [ RunTime:0.0009s ]
+SQL: SELECT `fieldset` FROM `dede_channeltype` WHERE `id` = 17  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `dede_arctype` [ RunTime:0.0012s ]
+SQL: SELECT c.id,`title`,`litpic`,c.description FROM dede_arctype as a INNER JOIN dede_archives as c on a.id = c.typeid  WHERE `reid` = 0 AND a.id = 2 ORDER BY rand() LIMIT 4   [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001175s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001346s ]
+
+[ 2017-08-11T09:51:51+08:00 ] 127.0.0.1 /index.php/Home/Details/index?id=53
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000105s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000533s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000649s ]
+SQL: SHOW COLUMNS FROM `dede_archives` [ RunTime:0.0006s ]
+SQL: SELECT * FROM dede_archives as b INNER JOIN dede_chanpin as c on b.id = c.aid  WHERE b.id = '53' AND c.aid = '53' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `dede_chanpin` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `dede_chanpin` WHERE `aid` = 53 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `dede_channeltype` [ RunTime:0.0006s ]
+SQL: SELECT `fieldset` FROM `dede_channeltype` WHERE `id` = 17  [ RunTime:0.0002s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp64\www\Case\Application\Home\Controller\DetailsController.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `dede_arctype` [ RunTime:0.0005s ]
+SQL: SELECT c.id,`title`,`litpic`,c.description FROM dede_arctype as a INNER JOIN dede_archives as c on a.id = c.typeid  WHERE `reid` = 0 AND a.id = 2 ORDER BY rand() LIMIT 4   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000638s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000731s ]
+
+[ 2017-08-11T09:58:42+08:00 ] 127.0.0.1 /index.php/Home/News/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000112s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000836s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001132s ]
+SQL: SHOW COLUMNS FROM `dede_arctype` [ RunTime:0.0024s ]
+SQL: SELECT `id`,`typename`,`defaultnames` FROM `dede_arctype` WHERE `reid` = 0 AND `ishidden` = 0  [ RunTime:0.0003s ]
+SQL: SELECT `id`,`typename`,`defaultnames` FROM `dede_arctype` WHERE `reid` = 0 AND `ishidden` = 1 AND `issend` = 1  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dede_archives` [ RunTime:0.0005s ]
+SQL: SELECT a.id,`title`,`shorttitle`,`writer`,`source`,`litpic`,`pubdate`,a.description FROM dede_archives as a INNER JOIN dede_arctype as b on b.id = a.typeid INNER JOIN dede_addonarticle as c on a.id = c.aid  WHERE b.id = 3  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: news D:\wamp64\www\Case\Application\Home\Controller\NewsController.class.php 第 28 行.
+SQL: SHOW COLUMNS FROM `dede_arctype` [ RunTime:0.0004s ]
+SQL: SELECT a.id,`title`,c.description FROM dede_arctype as a INNER JOIN dede_archives as c on a.id = c.typeid  WHERE `reid` = 0 AND a.id = 23  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000572s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000656s ]
+
+[ 2017-08-11T09:59:15+08:00 ] 127.0.0.1 /index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000196s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000811s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000989s ]
+SQL: SHOW COLUMNS FROM `dede_arctype` [ RunTime:0.0015s ]
+SQL: SELECT `id`,`typename`,`defaultnames` FROM `dede_arctype` WHERE `reid` = 0 AND `ishidden` = 0  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `dede_archives` [ RunTime:0.0009s ]
+SQL: SELECT a.id,`title`,`shorttitle`,`writer`,`source`,`litpic`,`pubdate`,a.description,a.flag FROM dede_archives as a INNER JOIN dede_chanpin as c on a.id = c.aid  WHERE a.typeid = 2  [ RunTime:0.0006s ]
+SQL: SELECT a.id,`title`,`shorttitle`,`writer`,`source`,`litpic`,`pubdate`,a.description,a.flag FROM dede_archives as a INNER JOIN dede_chanpin as c on a.id = c.aid  WHERE a.typeid = 2  [ RunTime:0.0006s ]
+SQL: SELECT a.id,`title`,`shorttitle`,`writer`,`source`,`litpic`,`pubdate`,a.description,a.flag FROM dede_archives as a INNER JOIN dede_chanpin as c on a.id = c.aid  WHERE a.typeid = 2  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `dede_arctype` [ RunTime:0.0009s ]
+SQL: SELECT a.id,`title`,`shorttitle`,`writer`,`source`,`litpic`,`pubdate`,c.description FROM dede_arctype as a INNER JOIN dede_archives as c on a.id = c.typeid INNER JOIN dede_addonarticle as b on c.id = b.aid  WHERE a.id = 11 AND a.reid = 1  [ RunTime:0.0007s ]
+SQL: SELECT a.id,`title`,`shorttitle`,`writer`,`source`,`litpic`,`pubdate`,c.description,`body` FROM dede_arctype as a INNER JOIN dede_archives as c on a.id = c.typeid INNER JOIN dede_addonarticle as b on c.id = b.aid  WHERE a.id = 13 AND a.reid = 1  [ RunTime:0.0005s ]
+SQL: SELECT a.id,`title`,`shorttitle`,`writer`,`source`,`litpic`,`pubdate`,a.description,a.flag FROM dede_archives as a INNER JOIN dede_addonarticle as c on a.id = c.aid  WHERE a.typeid = 3  [ RunTime:0.0005s ]
+SQL: SELECT a.id,`title`,`shorttitle`,`writer`,`source`,`litpic`,`pubdate`,c.description FROM dede_arctype as a INNER JOIN dede_archives as c on a.id = c.typeid INNER JOIN dede_addonarticle as b on c.id = b.aid  WHERE a.id = 18 AND a.reid = 1  [ RunTime:0.0005s ]
+SQL: SELECT a.id,`title`,`writer`,`source`,`litpic` FROM dede_arctype as a INNER JOIN dede_archives as c on a.id = c.typeid INNER JOIN dede_addonarticle as b on c.id = b.aid  WHERE a.id = 19 AND a.reid = 1  [ RunTime:0.0005s ]
+SQL: SELECT a.id,`title`,c.description FROM dede_arctype as a INNER JOIN dede_archives as c on a.id = c.typeid  WHERE `reid` = 0 AND a.id = 23  [ RunTime:0.0006s ]
+SQL: SELECT `id`,`typename`,`defaultnames` FROM `dede_arctype` WHERE `reid` = 0 AND `ishidden` = 1 AND `issend` = 1  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001101s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001279s ]
+
+[ 2017-08-11T09:59:35+08:00 ] 127.0.0.1 /index.php/Home/Product/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000124s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000562s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000662s ]
+SQL: SHOW COLUMNS FROM `dede_archives` [ RunTime:0.0006s ]
+SQL: SELECT a.id,`title`,`shorttitle`,`writer`,`source`,`litpic`,`pubdate`,a.description,`body` FROM dede_archives as a INNER JOIN dede_arctype as b on b.id = a.typeid INNER JOIN dede_chanpin as c on a.id = c.aid  WHERE b.id = 2 LIMIT 6   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `dede_arctype` [ RunTime:0.0004s ]
+SQL: SELECT `id`,`typename`,`defaultnames` FROM `dede_arctype` WHERE `reid` = 0 AND `ishidden` = 0  [ RunTime:0.0002s ]
+SQL: SELECT `id`,`typename`,`defaultnames` FROM `dede_arctype` WHERE `reid` = 0 AND `ishidden` = 1 AND `issend` = 1  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `dede_arctype` [ RunTime:0.0004s ]
+SQL: SELECT a.id,`title`,c.description FROM dede_arctype as a INNER JOIN dede_archives as c on a.id = c.typeid  WHERE `reid` = 0 AND a.id = 23  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000891s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001007s ]
+

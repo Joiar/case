@@ -1,0 +1,90 @@
+[ 2017-08-07T00:10:31+08:00 ] 127.0.0.1 /MinData/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000142s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002573s ]
+ERR: 非法操作:index
+
+[ 2017-08-07T00:11:46+08:00 ] 127.0.0.1 /MinData/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000700s ]
+ERR: 非法操作:index
+
+[ 2017-08-07T00:11:51+08:00 ] 127.0.0.1 /MinData/index.php?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000772s ]
+ERR: 非法操作:index
+
+[ 2017-08-07T00:12:03+08:00 ] 127.0.0.1 /MinData/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000433s ]
+ERR: 非法操作:index
+
+[ 2017-08-07T10:38:58+08:00 ] 127.0.0.1 /index.php/Home/Index/index
+ERR: Think\Controller:archives方法不存在！
+
+[ 2017-08-07T10:39:51+08:00 ] 127.0.0.1 /index.php/Home/Index/index
+ERR: Think\Controller:archives方法不存在！
+
+[ 2017-08-07T10:40:34+08:00 ] 127.0.0.1 /index.php/Home/Index/index
+ERR: Think\Controller:archives方法不存在！
+
+[ 2017-08-07T10:41:52+08:00 ] 127.0.0.1 /index.php/Home/Index/index
+ERR: Think\Controller:archives方法不存在！
+
+[ 2017-08-07T10:48:58+08:00 ] 127.0.0.1 /index.php/Home/Index/index
+ERR: Think\Controller:archives方法不存在！
+
+[ 2017-08-07T10:49:12+08:00 ] 127.0.0.1 /index.php/Home/Index/index
+ERR: Think\Controller:archives方法不存在！
+
+[ 2017-08-07T10:54:44+08:00 ] 127.0.0.1 /
+ERR: Think\Controller:archives方法不存在！
+
+[ 2017-08-07T10:55:50+08:00 ] 127.0.0.1 /
+ERR: Think\Controller:archives方法不存在！
+
+[ 2017-08-07T10:55:56+08:00 ] ::1 /Case/
+ERR: Think\Controller:archives方法不存在！
+
+[ 2017-08-07T10:56:58+08:00 ] ::1 /Case/
+ERR: Think\Controller:archives方法不存在！
+
+[ 2017-08-07T15:00:34+08:00 ] 127.0.0.1 /index.php/Home/index/about
+ERR: 非法操作:about
+
+[ 2017-08-07T16:19:32+08:00 ] 127.0.0.1 /index.php/Home/index
+ERR: SQLSTATE[HY000] [1049] Unknown database 'case'
+
+[ 2017-08-07T17:44:37+08:00 ] 127.0.0.1 /index.php/Home/News
+ERR: 无法加载控制器:News
+
+[ 2017-08-07T17:44:46+08:00 ] 127.0.0.1 /index.php/Home/news
+ERR: 无法加载控制器:News
+
+[ 2017-08-07T17:45:04+08:00 ] 127.0.0.1 /index.php/Home/News
+ERR: 无法加载控制器:News
+
+[ 2017-08-07T17:45:28+08:00 ] 127.0.0.1 /index.php/Home/news
+ERR: 无法加载控制器:News
+
+[ 2017-08-07T17:52:43+08:00 ] 127.0.0.1 /index.php/Home/news
+ERR: 无法加载控制器:News
+
+[ 2017-08-07T17:53:42+08:00 ] 127.0.0.1 /index.php/Home/Product
+ERR: 无法加载控制器:Product
+
+[ 2017-08-07T17:53:47+08:00 ] 127.0.0.1 /index.php/Home/Product
+ERR: 无法加载控制器:Product
+
+[ 2017-08-07T17:55:58+08:00 ] 127.0.0.1 /index.php/Home/News/index
+ERR: 无法加载控制器:News
+
+[ 2017-08-07T19:55:13+08:00 ] 127.0.0.1 /index.php/Home/Index/index
+ERR: 1054:Unknown column 'default' in 'field list'
+ [ SQL语句 ] : SELECT `id`,`typename`,`default` FROM `dede_arctype` WHERE `reid` = 0 
+ERR: 1054:Unknown column 'default' in 'field list'
+ [ SQL语句 ] : SELECT `id`,`typename`,`default` FROM `dede_arctype` WHERE `reid` = 0 
+
